@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+
+.contact-me-box{
+    background: #edeef0;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #a3b1c6, -10px -10px 15px #ffffff;
+
+}
+.btn-branding-contact{
+    background:#edeef0;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px #a3b1c6, -10px -10px 15px #ffffff;
+}
+hr{
+    width:36%;
+    display: block;
+    margin: 0 auto;
+    justify-self: center;
+
+}
