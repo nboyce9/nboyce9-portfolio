@@ -1,12 +1,16 @@
 
 
+body{
+    background-color: #f3f4f7;
+}
 
 
 
 
-
-
-
+a, .nav-link, i {
+    color:rgba(231, 17, 160, 0.651);
+    text-decoration: none;
+}
 
 
 .contact-me-box{
