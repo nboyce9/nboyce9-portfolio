@@ -25,10 +25,10 @@ body{
     display: block;
     margin: 0 auto;
     width:fit-content;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    color:#10131d;
-    background:#ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:#ffffff;
+    background:#000000;
     font-weight: bold;
     border-radius: 15px;
     padding: 15px;
@@ -36,6 +36,28 @@ body{
     text-decoration: none;
     /* box-shadow: -10px -10px z #ffffff; */
 }
+
+.skill{
+    border: 1px solid;
+    border-radius: 15px;
+    width: 100px;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+}
+.skill p{
+    text-align: center;
+    font-weight: bold;
+}
+.skill i{
+    font-size: 50px;
+    display: block;
+}
+
+.contact-me-box{
+    background: #edeef0;
+    opacity: 0.5;
+}
+
 
 a, .nav-link{
     color:rgb(15, 15, 15);
@@ -47,12 +69,7 @@ h1{
 }
 
 
-.contact-me-box{
-    background: #edeef0;
-    border-radius: 15px;
-    box-shadow: -10px -10px 15px #ffffff;
 
-}
 
 hr{
     width:200px;
