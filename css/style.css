@@ -64,6 +64,18 @@ span{
     font-size: small;
     font-weight: bold;
 }
+.project {
+    padding: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
+/* .projects-container{
+    display: flex;
+    margin-left: 5px;
+    padding: 10px;
+} */
 
 
 a, .nav-link{
