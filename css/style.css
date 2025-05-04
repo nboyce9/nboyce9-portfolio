@@ -1,26 +1,32 @@
-
+html {
+    scroll-behavior: smooth;
+  }  
 
 body{
     background-color: hsl(0, 0%, 100%);
     color:#080808;
     margin: 15px;
+    font-family: 'Poppins';
 }
 
 .btn-branding-outline{
-    border:1px solid #141414;
+    border:1px solid rgb(233, 13, 97);
     padding: 2px 15px;
+    color:#000000;
     border-radius: 15px;
     font-weight: bold;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .profile{
     width:400px;
     margin:0 auto;
     display:block;
-    height: 400px;
-    border-radius: 50%;
+    height: 300px;
+    border-radius: 25px;
 }
+
 .btn-branding-contact{
     display: block;
     margin: 0 auto;
@@ -34,11 +40,21 @@ body{
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    /* box-shadow: -10px -10px z #ffffff; */
+}
+.profile-links{
+    display: flex;
+    justify-content: center;
+}
+.profile-links a{
+    font-size: 20px;
+    opacity: 0.7;
+    padding:15px;
+    color:rgb(233, 13, 97);
+    border-radius: 45%;
 }
 
 .skill{
-    border: 1px solid;
+    border: 1px solid rgb(233, 13, 97);
     border-radius: 15px;
     width: 100px;
     padding: 4px 10px;
@@ -51,11 +67,12 @@ body{
 .skill i{
     font-size: 50px;
     display: block;
+    opacity: 0.7;
 }
 
 .contact-me-box{
     background: #edeef0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 span{
@@ -66,51 +83,26 @@ span{
 }
 .project {
     padding: 3rem;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(233, 13, 97);
     border-radius: 8px;
 }
-
-
-/* .projects-container{
-    display: flex;
-    margin-left: 5px;
-    padding: 10px;
-} */
-
-
-a, .nav-link{
+.nav-links a{
     color:rgb(15, 15, 15);
     text-decoration: none;
+    font-size: 14px;
 }
 h1{
     text-align: center;
     margin: 40px 0;
+    font-family: 'Playfair display'
 }
 
-
-
-
-hr{
-    width:200px;
-    display: block;
-    margin-top: .2em;
-    justify-self: center;
-}
-
-li{
-   list-style: none; 
-}
 h6{
     text-decoration:underline;
     font-weight: bolder;
     font-size: large;
 }
-
-.socials, .about-links, .projects-links{
-    margin-top: 100px;
-    box-shadow: 10px 10px 10px #a3b1c6, -10px -10px 15px #ffffff;
-    border-radius: 15px;
-    width:fit-content;
-    padding:10px;
-    margin-left: 15px;
+a:hover{
+    color:black;
+    background:rgba(233, 13, 97, 0.432);
 }
