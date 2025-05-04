@@ -7,9 +7,13 @@ body{
 
 
 
-a, .nav-link, i {
-    color:rgba(231, 17, 160, 0.651);
+a, .nav-link{
+    color:rgb(255, 153, 0);
     text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin: 40px 0;
 }
 
 
@@ -20,17 +24,39 @@ a, .nav-link, i {
 
 }
 .btn-branding-contact{
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+    margin-top: 60px;
+    margin-bottom: 60px;
     background:#edeef0;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
+    text-align: center;
     text-decoration: none;
     box-shadow: 10px 10px 10px #a3b1c6, -10px -10px 15px #ffffff;
 }
 hr{
     width:200px;
     display: block;
-    margin-top: 1px;
-    padding: 0;
+    margin-top: .2em;
     justify-self: center;
+}
 
+li{
+   list-style: none; 
+}
+h6{
+    text-decoration:underline;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.socials, .about-links, .projects-links{
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px #a3b1c6, -10px -10px 15px #ffffff;
+    border-radius: 15px;
+    width:fit-content;
+    padding:10px;
+    margin-left: 15px;
 }
