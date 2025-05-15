@@ -1,18 +1,21 @@
 html {
     scroll-behavior: smooth;
-  }  
+  } 
+  
+:root{
+    --primary-color: #86a9c4;
+}
 
 body{
     background-color: hsl(0, 0%, 100%);
     color:#080808;
-    /* margin: 15px; */
     font-family: 'Poppins';
 }
 .side-bar{
     position: sticky;
     left: 0;
     top: 0;
-    background-color:#86a9c4;
+    background-color:var(--primary-color);
 }
 
 .profile-small{
@@ -43,10 +46,15 @@ body{
     line-height: 70px;
  }
 
+ .container-fluid{
+    padding:0 20px;
+    justify-content: center;
+ }
+
 
 
 .btn-branding-outline{
-    border:1px solid rgb(233, 13, 97);
+    border:1px solid var(--primary-color);
     padding: 2px 15px;
     color:#000000;
     border-radius: 15px;
@@ -77,22 +85,24 @@ body{
     text-align: center;
     text-decoration: none;
 }
+.row{
+    margin: 0;
+}
+
 .profile-links{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
+    position:fixed;
+    bottom: 10px;
 }
 .profile-links a{
     font-size: 20px;
     opacity: 0.7;
-    padding:15px;
-    color:rgb(233, 13, 97);
-    border-radius: 45%;
+    padding:10px;
+    color:rgb(0, 0, 0);
+    border-radius: 50%;
 }
 
 .skill{
-    border: 1px solid rgb(233, 13, 97);
+    border: 1px solid #86a9c4;
     border-radius: 15px;
     width: 100px;
     padding: 4px 10px;
@@ -104,7 +114,6 @@ body{
 }
 .skill i{
     font-size: 50px;
-    display: block;
     opacity: 0.7;
 }
 
@@ -121,19 +130,19 @@ span{
 }
 .project {
     padding: 0, 3rem;
-    border-bottom: 1px solid rgb(233, 13, 97);
-    border-left: 1px solid rgb(233, 13, 97);
-    border-left: 1px dotted rgb(233, 13, 97);
+    border-bottom: 1px solid var(--primary-color);
+    border-left: 1px solid var(--primary-color);
     border-radius: 8px;
 }
 .project h6{
     padding-top: 35px;
     padding-bottom: 20px;
-    background-color: rgb(233, 13, 97);
+    background-color: var(--primary-color);
     border-bottom-left-radius:5cm;
     border-bottom-right-radius: 5cm;
 }
 .nav-links a{
+    margin-top: 15px;
     color:rgb(15, 15, 15);
     text-decoration: none;
     font-size: 14px;
@@ -144,13 +153,13 @@ h1{
     font-family: 'Playfair display'
 }
 
+
 h6{
-    /* text-decoration:underline; */
     font-weight: bolder;
     font-size: large;
     color: #ffffff;
 }
 a:hover{
-    color:black;
-    background:rgba(233, 13, 97, 0.432);
+    color:rgb(255, 255, 255);
+    background:#86a9c4;
 }
