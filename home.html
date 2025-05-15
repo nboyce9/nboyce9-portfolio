@@ -27,7 +27,25 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container row">
+    <div class="side-bar col-3 d-block">       
+        <div class="profile-small">
+            <!-- <img class="img-fluid bar-profile"src="images/profile.jpeg" alt=""> -->
+        </div> 
+        <div class="menu-bar">
+            <ul>
+                <li><i class="fa-solid fa-home ">  Home</i></li>
+                <li><i class="fa-solid fa-user"> About</i></li>
+                <li><i class="fa-solid fa-briefcase "> Projects</i></li>
+                <li><i class="fa-solid fa-phone "> Contact</i></li>
+            </ul> 
+        </div>
+        <div class="profile-links">
+            <a class="me-3" href="https://www.linkedin.com/in/nobukho-boyce" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.github.com/nboyce9" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>         
+        </div>
+    <div class="container-main col-9">
         <nav class="nav-bar mb-5">
             <div class="nav-links d-flex justify-content-end">
             <a class="btn-branding-outline" href="/home.html">Home</a>
@@ -36,15 +54,13 @@
             <a class="btn-branding-outline" href="#contact">Contact</a>
             </div>
         </nav>
+        <div class="hero"></div>
+        
         <img class="profile img-fluid" src="images/profile.jpeg" alt="profile">
 
         <div class="greeting mb-5">
             <h1  class="text-center mb-2">Nobukho Boyce</h1>
             <p class="text-center">Software Developer</p>
-            <div class="profile-links">
-                <a class="me-3" href="https://www.linkedin.com/in/nobukho-boyce" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.github.com/nboyce9" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </div>
             <a class="btn-branding-contact" href="files/nobukhoBoyceResume.pdf" download>Resume</a>
         </div>
 
@@ -118,26 +134,26 @@
             <div class="projects-btn">
                 <a class="btn-branding-contact" href="/projects.html">Projects</a>
             </div>
+
+            <footer>
+                <div class="footer-container mt-5">
+                    <div class="contact-me-box d-block justify-content-between pb-5">
+                            <h2 id="contact" class="p-4">Contact Me</h2>
+                            <div class="contact-links d-flex justify-content-around">
+                                <div class="email-btn">
+                                    <a class="btn-branding-outline" href="mailto:boycenobukho@gmail.com">Email</a>
+                                </div>
+                                <div class="call-btn">
+                                    <a class="btn-branding-outline" href="tel:+27781528465">Call</a>
+                                </div> 
+                                <div class="linkedin-btn">
+                                    <a class="btn-branding-outline" href="https://www.linkedin.com/in/nobukho-boyce" target="_blank">Message</a>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+            </footer>
         </div>
-        
-        <footer>
-            <div class="footer-container mt-5">
-                <div class="contact-me-box d-block justify-content-between pb-5">
-                        <h2 id="contact" class="p-4">Contact Me</h2>
-                        <div class="contact-links d-flex justify-content-around">
-                            <div class="email-btn">
-                                <a class="btn-branding-outline" href="mailto:boycenobukho@gmail.com">Email</a>
-                            </div>
-                            <div class="call-btn">
-                                <a class="btn-branding-outline" href="tel:+27781528465">Call</a>
-                            </div> 
-                            <div class="linkedin-btn">
-                                <a class="btn-branding-outline" href="https://www.linkedin.com/in/nobukho-boyce" target="_blank">Message</a>
-                            </div>
-                        </div>
-                        </div>
-                </div>
-        </footer>
-    </div>
+    </div>    
 </body>
 </html>

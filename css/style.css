@@ -5,9 +5,45 @@ html {
 body{
     background-color: hsl(0, 0%, 100%);
     color:#080808;
-    margin: 15px;
+    /* margin: 15px; */
     font-family: 'Poppins';
 }
+.side-bar{
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color:#86a9c4;
+}
+
+.profile-small{
+    background-image:url('/images/profile.jpeg');
+    background-size:200%;
+    background-repeat: no-repeat;
+    background-position:center;
+    top:0;
+    position:fixed;
+    /* width: 100%; */
+    /* border:2px solid rgb(233, 13, 97); */
+    border-radius: 50%;
+    padding: 50px;
+    /* width:fit-content; */
+}
+.menu-bar{
+    margin-top: 150px; 
+    left: 0; 
+    position: fixed; 
+
+}
+ li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    color:#ffffff;
+    text-align:left;
+    line-height: 70px;
+ }
+
+
 
 .btn-branding-outline{
     border:1px solid rgb(233, 13, 97);
@@ -44,6 +80,8 @@ body{
 .profile-links{
     display: flex;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
 }
 .profile-links a{
     font-size: 20px;
@@ -82,9 +120,18 @@ span{
     font-weight: bold;
 }
 .project {
-    padding: 3rem;
-    border: 1px solid rgb(233, 13, 97);
+    padding: 0, 3rem;
+    border-bottom: 1px solid rgb(233, 13, 97);
+    border-left: 1px solid rgb(233, 13, 97);
+    border-left: 1px dotted rgb(233, 13, 97);
     border-radius: 8px;
+}
+.project h6{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background-color: rgb(233, 13, 97);
+    border-bottom-left-radius:5cm;
+    border-bottom-right-radius: 5cm;
 }
 .nav-links a{
     color:rgb(15, 15, 15);
@@ -98,9 +145,10 @@ h1{
 }
 
 h6{
-    text-decoration:underline;
+    /* text-decoration:underline; */
     font-weight: bolder;
     font-size: large;
+    color: #ffffff;
 }
 a:hover{
     color:black;
