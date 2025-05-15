@@ -27,10 +27,9 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container row">
-    <div class="side-bar col-3 d-block">       
+    <div class="container-fluid row">
+    <div class="side-bar col-3 d-flex">       
         <div class="profile-small">
-            <!-- <img class="img-fluid bar-profile"src="images/profile.jpeg" alt=""> -->
         </div> 
         <div class="menu-bar">
             <ul>
@@ -41,22 +40,14 @@
             </ul> 
         </div>
         <div class="profile-links">
-            <a class="me-3" href="https://www.linkedin.com/in/nobukho-boyce" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/nobukho-boyce" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://www.github.com/nboyce9" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>         
         </div>
-    <div class="container-main col-9">
-        <nav class="nav-bar mb-5">
-            <div class="nav-links d-flex justify-content-end">
-            <a class="btn-branding-outline" href="/home.html">Home</a>
-            <a class="btn-branding-outline" href="#about">About</a>
-            <a class="btn-branding-outline" href="/projects.html">Projects</a>
-            <a class="btn-branding-outline" href="#contact">Contact</a>
-            </div>
-        </nav>
-        <div class="hero"></div>
-        
-        <img class="profile img-fluid" src="images/profile.jpeg" alt="profile">
+    <div class="container-fluid col-9 d-block justify-content-center align-items-center">
+        <div class="hero">
+            <img class="profile img-fluid" src="images/profile.jpeg" alt="profile">
+        </div>
 
         <div class="greeting mb-5">
             <h1  class="text-center mb-2">Nobukho Boyce</h1>
@@ -67,8 +58,8 @@
 
         <div class="about-section mt-5" id="about">
             <div class="col">
-                <h2 class="mb-4">About Me</h2>
-                <p>I am an aspiring software engineer with a passion for building scalable,
+                <h2 class="mb-4 text-center">About Me</h2>
+                <p class="text-center">I am an aspiring software engineer with a passion for building scalable,
                     full-stack applications using Java, Python, and JavaScript. I am experienced
                     in distributed systems, RESTful APIs, and cloud tools like AWS, and have 
                     developed hands-on projects ranging from scheduling platforms to interactive 
